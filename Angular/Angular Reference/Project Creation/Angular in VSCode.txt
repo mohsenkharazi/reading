@@ -1,0 +1,19 @@
+1- Install Node JS with default settings for everything https://nodejs.org/en/download/
+
+2- Download Visual Studio Code: https://code.visualstudio.com/download
+
+3- Open PowerShell in admin mode. Install Angular CLI:
+	npm install -g @angular/cli
+
+4- Navigate to the folder where you want to make your angular app.
+	ng new my-new-angular-app
+
+5- cd into your new app directory that you just created, in this case
+	cd my-new-angular-app
+
+6- Build app and start server
+	ng serve
+
+7- Navigate to http://localhost:4200
+
+now you can open project folder in vs code and enjoy!

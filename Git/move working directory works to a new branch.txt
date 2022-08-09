@@ -1,0 +1,10 @@
+$ git checkout -b topic/newbranch
+
+
+fatal: The current branch feature/NEWBRANCH has no upstream branch. 
+To push the current branch and set the remote as upstream, use:
+
+git push --set-upstream origin feature/feature/NEWBRANCH
+
+
+-- check if changes are stagged and commited in branch or not

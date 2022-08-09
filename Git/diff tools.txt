@@ -1,0 +1,4 @@
+kdiff3
+p4merge
+winMerge (windows only)
+vs code

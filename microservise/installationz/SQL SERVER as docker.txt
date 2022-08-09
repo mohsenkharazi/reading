@@ -1,0 +1,17 @@
+1- run following (by default it download developer edition)
+
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Password@123" --name sqlserver -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-latest
+
+
+2- make directory in docker running image (sqlserver is name of running image)
+docker exec -it sqlserver mkdir /var/opt/mssql/backup
+
+
+3a - go to following path that you have bak file for sql server
+
+cd C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup
+
+
+
+3b - copy your db.bak file to corresponding directory in container
+ docker cp AdventureWorks2019.bak sqlserver:/var/opt/mssql/backup

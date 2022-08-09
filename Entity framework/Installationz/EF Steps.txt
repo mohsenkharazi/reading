@@ -1,0 +1,12 @@
+1- install following packages if it is not already installed:
+
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+
+2- go to package manager console and run following command:
+
+Scaffold-DbContext 'Data Source=.;Initial Catalog=AdventureWorks;Trusted_Connection=True;' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models
+
+for CTS UCMS
+Scaffold-DbContext 'Server=10.0.2.4; database=Cardtrend.UCMS.ChargeCard; user id=humar; password=fd%f54P;' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Data -OutputDir Models

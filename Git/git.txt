@@ -1,0 +1,12 @@
+git config --global user.name "mkharazi"
+git config --global user.email "xxx@xxx.com"
+git config --global -e 
+
+git status
+git add . 
+git ls-files  // shows files in stagging area
+git commit -m "initial development"
+git rm file1.txt //remove from both working directory and staging area
+git rm -h  //quick help
+git diff --staged
+git diff // what we have in working directory vs what we have in staging area

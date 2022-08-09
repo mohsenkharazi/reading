@@ -1,0 +1,18 @@
+-- indexing hint
+
+Columns with text, image, ntext, varchar(max), nvarchar(max) and varbinary(max) 
+cannot be used in the index key columns.
+
+It is recommended to use an integer data type in the index key column.
+
+A primary key also creates a clustered index for the row distribution.
+
+You can consider a column with the Unique and Not NULL values as a useful 
+index key candidate.
+
+you can consider columns used in the Where clause, SQL joins, like, 
+order by, group by predicates, and so on
+
+Consider the data sorting requirements 
+
+create an index on the foreign keys columns

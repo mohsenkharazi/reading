@@ -1,0 +1,8 @@
+1- install Microsoft.AspNetCore.Mvc.NewtonsoftJson in nuget
+
+2- add following code in startup.cs in ConfigureServices
+
+            services.AddControllers().AddNewtonsoftJson(opt =>
+            {
+                opt.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
+            });

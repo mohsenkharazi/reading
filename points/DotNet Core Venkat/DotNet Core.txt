@@ -1,0 +1,19 @@
+Target Framework Moniker
+
+(TFM) target framework Moniker is what appear in project file for traget framework
+in bellow example it is "netcoreapp3.1"
+
+<TargetFramework>netcoreapp3.1</TargetFramework>
+
+
+__________________________________________________________________________________________________________________________________
+
+Configuration Sources
+
+1- Files(appsettings.json, appsettings.{environment}.json)
+2- User secrets
+3- Environment variables
+4- Command-line arguments
+
+To access configuration information from above mentioned sources:
+--> IConfiguration Service
