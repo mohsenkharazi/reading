@@ -1,0 +1,27 @@
+-- VS
+-- VS code
+-- postman
+-- chrome
+-- cisco anyconnect 
+--> ILSPY
+
+
+to pin
+-- crystal reports
+
+
+--> export chrome bookmarks
+--> vpn
+
+
+
+-- old
+Hostname: PPLUMSQ1
+Private IP: 10.0.11.139
+Public IP: 54.254.28.8
+
+ 
+
+Hostname: PPLUDB1
+Private IP: 10.0.12.182
+Public IP: 13.250.124.149
